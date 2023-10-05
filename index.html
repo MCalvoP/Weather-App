@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="search">
+            <img src="./icons/location.svg" alt="">
+            <input type="text" placeholder="Ingrese su ubicación">
+            <button><img src="./icons/search.svg" alt=""></button>
+        </div>
+
+        <div class="err">
+            <img src="./icons/404.jpg" alt="">
+            <h3>¡Ups! No sabemos donde queda ese lugar.</h3>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <img src="./icons/humidity.svg" alt="">
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <img src="./icons/wind.svg" alt="">
+                <div class="text">
+                    <span></span>
+                    <p>Wind</p>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html> 
